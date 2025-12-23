@@ -28,6 +28,7 @@ export const SUPPORTED_LANGUAGES = [
   "metal",
   "verilog",
   "systemverilog",
+  "ispc",
 ] as const;
 
 export type SupportedLanguage = typeof SUPPORTED_LANGUAGES[number];
@@ -67,4 +68,5 @@ export const DISPLAY_NAMES = {
   verilog: "Verilog",
   systemverilog: "SystemVerilog",
   json: "JSON",
+  ispc: "ISPC",
 } as const satisfies Readonly<Record<string, string>>;
