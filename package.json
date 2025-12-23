@@ -53,7 +53,8 @@
     "onLanguage:tablegen",
     "onLanguage:metal",
     "onLanguage:verilog",
-    "onLanguage:systemverilog"
+    "onLanguage:systemverilog",
+    "onLanguage:ispc"
   ],
   "main": "./dist/extension.js",
   "contributes": {
